@@ -1,0 +1,5 @@
+- "git status"
+- "git ls-remote "
+- "git init"
+- "git push"
+- "git checkout"

@@ -1,0 +1,77 @@
+.App{
+    display:flex;
+    flex-direction: column;
+   justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';;
+}
+.Header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97vw;
+    height: 55px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+   }
+.btn{
+    width: 150px;
+    color:white;
+    background-color: rgb(109, 109, 109);
+}
+.DivLiens{
+    cursor: pointer;
+   display: flex;
+   width:500px;
+  align-items: center;
+  justify-content: space-around;
+}
+.Liens{
+display: flex;
+height: 55px;
+align-items:center;
+}
+
+.DivLiens :hover{
+background-color: rgba(199, 199, 199, 0.671);
+}
+.LoremContent{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width: 100%;
+    text-align: center;
+}
+.LoremText{
+ background-color: sandybrown;
+ width: 100vw 90%;
+}
+.Photo{
+   display: flex;
+  height: 200px;
+  width: 80%;
+justify-content: space-around;
+
+}
+.Album{
+  height: 100px;
+  width: 30%;
+}
+.Footer{ 
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(255, 255, 253);
+    width: 90vw;
+}
+.firstDemi{   
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.twoDemi{
+     width: 50%;
+    background-color: rgb(255, 255, 255);   
+}
